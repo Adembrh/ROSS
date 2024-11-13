@@ -1,0 +1,7 @@
+<launch>
+    <!-- Launch the publisher node (talker.py) -->
+    <node name="pub" pkg="pakage1" type="pub.py" output="screen" />
+
+    <!-- Launch the subscriber node (listener.py) -->
+    <node name="sub" pkg="pakage1" type="sub.py" output="screen" />
+</launch>
